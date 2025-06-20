@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>14c23b5c-fcb7-4f44-b3b6-05fcf34ce50d</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, add items to the cart, and proceed through the checkout process. Enter shipping and payment details, then complete the order.</description>
+    <name>TC1-Complete Checkout Process with Multiple Items and Shipping Information</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>82f2aafd-89c5-4e1d-aeb3-2f117793851f</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>6d8ebf73-0fdd-4bfa-aca9-5968b1b124d9</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>d87dfbf6-3dd2-49aa-ba4b-f2f50cc5c37e</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>1cf49d90-c41c-4134-aa60-73f931160721</id>
+        <masked>false</masked>
+        <name>input_firstName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>57f845a4-2f79-48ff-99b4-15aead0c8ea2</id>
+        <masked>false</masked>
+        <name>input_lastName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>f974b6f0-3910-4442-bbd7-d6f0183e76bf</id>
+        <masked>false</masked>
+        <name>input_phone</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e9b5047d-fe37-44c9-846d-c7ee561f44f0</id>
+        <masked>false</masked>
+        <name>input_shippingAddress</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>db1d1f9f-283e-4fc0-b566-35a81ded445b</id>
+        <masked>false</masked>
+        <name>input_state</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>9662bd5d-e645-42ae-9417-92c24eca660e</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+    <variable>
+        <defaultValue>'Mint'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6679ee9c-481a-42fe-9a4a-670aafcd3caf</id>
+        <masked>false</masked>
+        <name>label_colorStorageOption_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'512 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d41f032b-9f68-42ff-bc7d-359994bd3247</id>
+        <masked>false</masked>
+        <name>label_colorStorageOption_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Yellow'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>90e3ce2d-0e40-41b0-bc2d-82a3c43bc5c7</id>
+        <masked>false</masked>
+        <name>label_storageColor_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'White'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d04be56d-57a2-4967-80a0-06b8f61aaa16</id>
+        <masked>false</masked>
+        <name>label_storageColor_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'512 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a4a7030e-63fa-4414-aae9-bb4df7a0f4d8</id>
+        <masked>false</masked>
+        <name>label_storageColor_internalText_2</name>
+    </variable>
+</TestCaseEntity>
