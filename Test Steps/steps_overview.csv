@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Complete Checkout Process with Multiple Items and Shipping Information,"Navigate to the home page, add items to the cart, and proceed through the checkout process. Enter shipping and payment details, then complete the order.","Step 1: Navigate to /
+2,Comprehensive Shopping Cart and Checkout Process with Multiple Products,"Navigate through the home page, add multiple products to the cart, adjust quantities, and proceed through the checkout process. Enter shipping and payment information, and verify order completion.","Step 1: Navigate to /
 Step 2: Click on span goToCart -> Navigate to page '/cart'
 Step 3: Click on button increase
 Step 4: Click on button increase
@@ -33,22 +33,89 @@ Step 31: Click on link phone
 Step 32: Click on link apple
 Step 33: Click on link samsung -> Navigate to page '/category/phone-samsung'
 Step 34: Click on button addToCart
-Step 35: Click on label colorStorageOption (mint)
-Step 36: Click on label colorStorageOption ( 512Gb)
+Step 35: Click on label colorStorageOption (colorStorageOption)
+Step 36: Click on label colorStorageOption (colorStorageOption2)
 Step 37: Click on button buy
 Step 38: Click on link samsungGalaxyS23Hot -> Navigate to page '/product/*'
-Step 39: Click on label storageColor (yellow)
-Step 40: Click on label storageColor (white)
-Step 41: Click on label storageColor (storage512Gb)
-Step 42: Click on button buy
+Step 39: Click on label storageColorAndCapacity (storageColor)
+Step 40: Click on label storageColorAndCapacity (storageColor2)
+Step 41: Click on label storageColorAndCapacity (storageColor3)
+Step 42: Click on button quantityControl (buy)
 Step 43: Click on span shippingIcon
 Step 44: Click on div shippingInfo
 Step 45: Click on span shippingIcon2
 Step 46: Click on link phone -> Navigate to page '/category/phone'
 Step 47: Click on button addToCart
 Step 48: Click on link placeOrder -> Navigate to page '/cart'
-Step 49: Click on button remove
+Step 49: Click on button removeItem (remove)
 Step 50: Click on span horizontalMenuElement
-Step 51: Click on link samsung -> Navigate to page ''
-Step 52: Take full page screenshot as checkpoint
-",High,NEW
+Step 51: Click on link samsung -> Navigate to page '/category/accessories-samsung'
+Step 52: Click on link apple -> Navigate to page '/category/phone-apple'
+Step 53: Click on div productDetails
+Step 54: Click on link iphone16 -> Navigate to page '/product/*'
+Step 55: Click on button quantityControl (increase)
+Step 56: Click on label storageColorAndCapacity (storage256Gb)
+Step 57: Click on label storageColorAndCapacity (colorPink)
+Step 58: Click on button quantityAdjustment (decrease)
+Step 59: Click on link productThumbnail (productThumbnailIPhone16)
+Step 60: Click on link productThumbnail (iphone16Thumbnail)
+Step 61: Click on list productGalleryThumbs
+Step 62: Click on button quantityAdjustment (increase2)
+Step 63: Click on label storageColorAndCapacity (storage512Gb)
+Step 64: Click on button quantityControl (buy)
+Step 65: Click on div productAddedMessage
+Step 66: Click on button action
+Step 67: Click on span horizontalMenuElement
+Step 68: Click on link samsung -> Navigate to page '/category/accessories-samsung'
+Step 69: Click on input priceMin
+Step 70: Click on label inStock
+Step 71: Click on input priceMin
+Step 72: Click on button showMore
+Step 73: Click on div clearSearch
+Step 74: Click on button addToCart
+Step 75: Click on link placeOrder -> Navigate to page '/cart'
+Step 76: Click on button removeItem (remove2)
+Step 77: Click on button removeItem (remove)
+Step 78: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 79: Click on div contactInformation
+Step 80: Click on input email
+Step 81: Enter input value in input email
+Step 82: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 83: Click on input firstName
+Step 84: Enter input value in input firstName
+Step 85: Click on input lastName
+Step 86: Enter input value in input lastName
+Step 87: Click on input shippingAddress
+Step 88: Enter input value in input shippingAddress
+Step 89: Click on input zipCode
+Step 90: Enter input value in input zipCode
+Step 91: Click on input city
+Step 92: Enter input value in input city
+Step 93: Click on input state
+Step 94: Enter input value in input state
+Step 95: Click on input phone
+Step 96: Enter input value in input phone
+Step 97: Click on form checkoutShippingAddress
+Step 98: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+Step 99: Click on span paymentIcon -> Navigate to page '/thank-you/*'
+Step 100: Click on div welcomeMessage
+Step 101: Click on link kCellphoneShop -> Navigate to page '/'
+Step 102: Click on div welcomeMessage
+Step 103: Click on link googlePixel -> Navigate to page '/category/phone-google-pixel'
+Step 104: Click on item productImage -> Navigate to page '/product/*'
+Step 105: Click on label storageColorAndCapacity (storage256Gb2)
+Step 106: Click on button quantityControl (decrease2)
+Step 107: Click on input quantity
+Step 108: Click on input quantity
+Step 109: Click on input quantity
+Step 110: Click on input quantity
+Step 111: Click on input quantity
+Step 112: Enter input value in input quantity
+Step 113: Click on button quantityControl (increase)
+Step 114: Click on div priceAndBuy
+Step 115: Click on input quantity
+Step 116: Enter input value in input quantity
+Step 117: Click on p discountMessage
+Step 118: Click on label storageColorAndCapacity (porcelain) -> Navigate to page ''
+Step 119: Take full page screenshot as checkpoint
+",High,STABLE

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b90707ae-aad3-4583-ab74-7f5e9f418679</id>
+        </flow>
+    </customField>
+    <description>Navigate through the home page, add multiple products to the cart, adjust quantities, and proceed through the checkout process. Enter shipping and payment information, and verify order completion.</description>
+    <name>TC2-Comprehensive Shopping Cart and Checkout Process with Multiple Products</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6c26254e-4ad3-43ca-a164-045de11f20b0</testCaseGuid>
+    <variable>
+        <defaultValue>'Decreased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7216b4f4-33c5-4059-814b-0cc2ede2d959</id>
+        <masked>false</masked>
+        <name>button_quantityAdjustment_buttonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>03199efa-02eb-4ccd-b5cc-48980b01b3b1</id>
+        <masked>false</masked>
+        <name>button_quantityAdjustment_buttonTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7a1d0616-baee-4539-b30f-31effc1d18ae</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1cf603e1-caf0-4444-8943-da256d7293e9</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6aaf4302-6eb8-471d-a08a-edfe096b466f</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Decreased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7f63be7b-088d-46f7-9085-015a3a5e6d66</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>606ad561-bdfb-4c11-9911-b81be855ebb6</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e2f464b1-7060-436d-9c64-e3eee7cf04b7</id>
+        <masked>false</masked>
+        <name>button_removeItem_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e690322c-378b-46b1-beda-23f82a35b3b2</id>
+        <masked>false</masked>
+        <name>button_removeItem_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>64427305-b6fb-417c-a1cf-7702e2c800ca</id>
+        <masked>false</masked>
+        <name>button_removeItem_nth_2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a86f8581-bfe8-48cb-a4bf-a6855d26bffa</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>68fe1c0f-01df-4d7b-880e-5db03eefda38</id>
+        <masked>false</masked>
+        <name>input_city_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>355c0769-0e8d-4440-991e-d1784819b602</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>0675719b-77c7-43ce-894c-863e6aa52411</id>
+        <masked>false</masked>
+        <name>input_email_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>958db1de-5e3b-41b5-bad4-0e7ff6a231aa</id>
+        <masked>false</masked>
+        <name>input_firstName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>9fd412d3-0b89-412f-8458-a69c9c30908a</id>
+        <masked>false</masked>
+        <name>input_firstName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>75e47912-3e9f-457b-bf65-501d0ac8daf8</id>
+        <masked>false</masked>
+        <name>input_lastName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>7627cc27-092a-4525-996a-98456b2f269b</id>
+        <masked>false</masked>
+        <name>input_lastName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>28e84575-a5a8-4323-b829-3095d3bfd5b3</id>
+        <masked>false</masked>
+        <name>input_phone</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>1cb224a5-65f1-4eac-8718-b2050a10d2ca</id>
+        <masked>false</masked>
+        <name>input_phone_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>4257c2b1-e5ce-45a3-b6e1-b3dd5853561d</id>
+        <masked>false</masked>
+        <name>input_quantity</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>1c22717a-95c6-48d0-8549-b12f6362efc0</id>
+        <masked>false</masked>
+        <name>input_quantity_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>46c90cad-ec4c-451b-bfca-edf37aea65b4</id>
+        <masked>false</masked>
+        <name>input_shippingAddress</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>26f39da6-a7be-4fbc-953a-ff44ae107808</id>
+        <masked>false</masked>
+        <name>input_shippingAddress_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>e560b6d1-3a3a-4f58-b5ef-d9b6f8e9e38d</id>
+        <masked>false</masked>
+        <name>input_state</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>3a2b8479-d3d5-40e9-869e-8fd14093b1a2</id>
+        <masked>false</masked>
+        <name>input_state_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>22b645a5-5bcd-4035-895c-44ac67ca821c</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>0a48cddb-92cb-48cf-82a2-6b3abb006b36</id>
+        <masked>false</masked>
+        <name>input_zipCode_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Mint'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>308024e9-bc9a-48ef-8135-97d01a935e6b</id>
+        <masked>false</masked>
+        <name>label_colorStorageOption_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'512 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a15643d3-1188-4188-99ac-e7f52e0c92d8</id>
+        <masked>false</masked>
+        <name>label_colorStorageOption_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Yellow'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8f3f145a-c53c-4a81-a365-578cb814efa2</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'White'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6ba70b98-087a-42a0-98c1-8ea7d2086ec5</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'512 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>18c2341c-c135-44b7-9592-a7a0713de45e</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'256 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5ca4ab2c-2659-44f6-b711-c7350e520dd9</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Pink'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>39c7af08-504d-477a-be18-6aca789594a7</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'512 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>664ce547-8bd4-4640-bb74-48e396f1db5a</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'256 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>418e4e69-3ea7-4dd5-ab75-e5fab63eee2c</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'Porcelain'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3d579136-543f-4d58-aebb-1de4153712bf</id>
+        <masked>false</masked>
+        <name>label_storageColorAndCapacity_internalText_7</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dfee00bc-716d-4319-b0da-6004e5efa11a</id>
+        <masked>false</masked>
+        <name>link_productThumbnail_liNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d1600809-24b9-49be-a094-15f3e0a2af30</id>
+        <masked>false</masked>
+        <name>link_productThumbnail_liNthChild_1</name>
+    </variable>
+</TestCaseEntity>
