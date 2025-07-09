@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>b90707ae-aad3-4583-ab74-7f5e9f418679</id>
@@ -9,7 +8,7 @@
     <description>Navigate through the home page, add multiple products to the cart, adjust quantities, and proceed through the checkout process. Enter shipping and payment information, and verify order completion.</description>
     <name>TC2-Comprehensive Shopping Cart and Checkout Process with Multiple Products</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test-tag</tag>
     <testCaseGuid>6c26254e-4ad3-43ca-a164-045de11f20b0</testCaseGuid>
     <variable>
         <defaultValue>'Decreased'</defaultValue>
