@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1998cbb5-d259-49b4-8f01-d862ea331269</id>
+        </flow>
+    </customField>
+    <description>Navigate to the product page, select color and storage options, adjust quantity, and add to cart. Proceed through checkout by entering shipping and payment details, then complete the order.</description>
+    <name>TC3-Complete Purchase Flow for a Cellphone with Custom Options</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0897c5c1-4afd-4860-80fa-8bdc59e03939</testCaseGuid>
+    <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3fff925d-a796-42b2-a2c2-702c533c8c95</id>
+        <masked>false</masked>
+        <name>button_quantityAdjustment_buttonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Decreased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>594fd69d-aabc-4eff-8724-ec84cc49d0f1</id>
+        <masked>false</masked>
+        <name>button_quantityAdjustment_buttonTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e144560d-a670-438c-961d-8e46cc6a37e3</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8820f01d-0ec2-4e7a-9be9-d6fd0a2cdec1</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>962d2236-f71e-425a-8301-c6ad03fc9b91</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>f5693613-419a-4522-806c-734f1a413bbd</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>d9c847df-124a-4fb6-8fe3-7315649c7da1</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>770246ef-48a4-44db-b57a-16d24d678eb4</id>
+        <masked>false</masked>
+        <name>input_firstName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>da7b3041-da06-4c8d-baf8-db6759d0d6a2</id>
+        <masked>false</masked>
+        <name>input_lastName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>463fd58e-2c5f-4f02-bade-e6c04d4cedf7</id>
+        <masked>false</masked>
+        <name>input_phone</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>24f39e90-d736-493e-91c3-8400af0dbfc2</id>
+        <masked>false</masked>
+        <name>input_shippingAddress</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a58396fe-6485-4725-ba6c-5f572b0fd865</id>
+        <masked>false</masked>
+        <name>input_state</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>946504e2-100d-4aa2-ae01-4702c3166038</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+    <variable>
+        <defaultValue>'Pink'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>be72df38-f9b4-4552-8021-6c10f2ce5e00</id>
+        <masked>false</masked>
+        <name>label_colorAndStorageOptions_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Green'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dde805dd-58a6-474e-8d1d-8a47a12386bf</id>
+        <masked>false</masked>
+        <name>label_colorAndStorageOptions_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'iphone-15-silicone-case-with-magsafe'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>6b403138-5a03-40f6-97f3-da5d639200eb</id>
+        <masked>false</masked>
+        <name>product_id</name>
+    </variable>
+</TestCaseEntity>
