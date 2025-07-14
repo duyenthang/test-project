@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>1998cbb5-d259-49b4-8f01-d862ea331269</id>
@@ -9,7 +8,7 @@
     <description>Navigate to product page, select items, and add them to the cart. Proceed through checkout by entering shipping and payment information, then complete the order.</description>
     <name>TC1-Complete Purchase Process with Multiple Items and Checkout</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>test-tag-1</tag>
     <testCaseGuid>b0e7b7a2-b0e1-44f5-9a1c-ba8beada95bb</testCaseGuid>
     <variable>
         <defaultValue>'Increased'</defaultValue>
