@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1998cbb5-d259-49b4-8f01-d862ea331269</id>
+        </flow>
+    </customField>
+    <description>Navigate to product page, select items, and add them to the cart. Proceed through checkout by entering shipping and payment information, then complete the order.</description>
+    <name>TC1-Complete Purchase Process with Multiple Items and Checkout</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b0e7b7a2-b0e1-44f5-9a1c-ba8beada95bb</testCaseGuid>
+    <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4625890b-a220-4d4b-9043-dff5fd864cb5</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Decreased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4b2f00b6-6ea5-4452-bc08-b51ebc5b2f5f</id>
+        <masked>false</masked>
+        <name>button_quantityControl_buttonTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>bfaa90cf-b375-427f-9bf5-ba206fd45896</id>
+        <masked>false</masked>
+        <name>input_addressLine1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>7c7ff816-6c06-4851-aeb6-fd1837163a07</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>8b6c3eff-bef9-4e9b-8603-de7cdfd50291</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>7557890d-164c-4897-9bce-3b7410a88565</id>
+        <masked>false</masked>
+        <name>input_firstName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>c1f96138-accf-4b91-ad70-382e4afa0894</id>
+        <masked>false</masked>
+        <name>input_lastName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>d1cfc994-a0f2-46b3-892c-b97412f177fe</id>
+        <masked>false</masked>
+        <name>input_phone</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>5d0cd7f2-7ad9-45bf-9088-a45e32343820</id>
+        <masked>false</masked>
+        <name>input_state</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>35067fdd-f541-4a34-9e3e-46f90f9c2306</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+    <variable>
+        <defaultValue>'Pink'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ed36731d-b84e-4ef3-95b7-2690cb8ff7e0</id>
+        <masked>false</masked>
+        <name>label_colorOption_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Green'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>205f3890-1171-4f05-bd61-b8ec6a138ca0</id>
+        <masked>false</masked>
+        <name>label_colorOption_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'iphone-15-silicone-case-with-magsafe'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>85b4539e-4058-43a0-bc33-d1056eadf227</id>
+        <masked>false</masked>
+        <name>product_id</name>
+    </variable>
+</TestCaseEntity>
