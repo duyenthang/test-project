@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>1998cbb5-d259-49b4-8f01-d862ea331269</id>
@@ -9,7 +8,7 @@
     <description>Navigate to the product page, select color and storage options, adjust quantity, and add to cart. Proceed through checkout by entering shipping and payment details, then complete the order.</description>
     <name>TC3-Complete Purchase Flow for a Cellphone with Custom Options</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>testtag11</tag>
     <testCaseGuid>0897c5c1-4afd-4860-80fa-8bdc59e03939</testCaseGuid>
     <variable>
         <defaultValue>'Increased'</defaultValue>
