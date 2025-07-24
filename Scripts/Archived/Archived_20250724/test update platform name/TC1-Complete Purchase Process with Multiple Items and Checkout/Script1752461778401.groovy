@@ -40,14 +40,14 @@ WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platf
 
 "Step 5: Click on div priceAndBuy"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_product/div_priceAndBuy'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_product/div_priceAndBuy'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on div priceAndBuy.png')
 
 "Step 6: Click on button quantityControl (increase)"
 
-// Bind values to the variables in the locators of "AI-Generated/test update platform name/Dynamic Objects/Page_product/button_quantityControl"
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Dynamic Objects/Page_product/button_quantityControl', ['button_quantityControl_buttonTitle': button_quantityControl_buttonTitle]))
+// Bind values to the variables in the locators of "Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/button_quantityControl"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/button_quantityControl', ['button_quantityControl_buttonTitle': button_quantityControl_buttonTitle]))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on button quantityControl increase.png')
 
@@ -65,8 +65,8 @@ WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platf
 
 "Step 9: Click on button quantityControl (decrease)"
 
-// Bind values to the variables in the locators of "AI-Generated/test update platform name/Dynamic Objects/Page_product/button_quantityControl"
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Dynamic Objects/Page_product/button_quantityControl', ['button_quantityControl_buttonTitle': button_quantityControl_buttonTitle_1]))
+// Bind values to the variables in the locators of "Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/button_quantityControl"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/button_quantityControl', ['button_quantityControl_buttonTitle': button_quantityControl_buttonTitle_1]))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on button quantityControl decrease.png')
 
@@ -102,43 +102,43 @@ WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platf
 
 "Step 15: Click on button proceedToCheckout -> Navigate to page '/checkout/info'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_cart/button_proceedToCheckout'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_cart/button_proceedToCheckout'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 15-Click on button proceedToCheckout - Navigate to page checkoutinfo.png')
 
 "Step 16: Click on input email"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_info/input_email'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_info/input_email'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 16-Click on input email.png')
 
 "Step 17: Enter input value in input email"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_info/input_email'), input_email)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_info/input_email'), input_email)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 17-Enter input value in input email.png')
 
 "Step 18: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_info/button_continueToShipping'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_info/button_continueToShipping'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 18-Click on button continueToShipping - Navigate to page checkoutshipping-address.png')
 
 "Step 19: Click on input firstName"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_firstName'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_firstName'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 19-Click on input firstName.png')
 
 "Step 20: Click on input lastName"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_lastName'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_lastName'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 20-Click on input lastName.png')
 
 "Step 21: Enter input value in input lastName"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_lastName'), input_lastName)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_lastName'), input_lastName)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 21-Enter input value in input lastName.png')
 
@@ -150,13 +150,13 @@ WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platf
 
 "Step 23: Click on input firstName"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_firstName'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_firstName'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 23-Click on input firstName.png')
 
 "Step 24: Enter input value in input firstName"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_firstName'), input_firstName)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_firstName'), input_firstName)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 24-Enter input value in input firstName.png')
 
@@ -174,13 +174,13 @@ WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platf
 
 "Step 27: Click on input addressLine1"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_addressLine1'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_addressLine1'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 27-Click on input addressLine1.png')
 
 "Step 28: Enter input value in input addressLine1"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_addressLine1'), input_addressLine1)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_addressLine1'), input_addressLine1)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 28-Enter input value in input addressLine1.png')
 
@@ -192,61 +192,61 @@ WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platf
 
 "Step 30: Click on input zipCode"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_zipCode'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_zipCode'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 30-Click on input zipCode.png')
 
 "Step 31: Enter input value in input zipCode"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_zipCode'), input_zipCode)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_zipCode'), input_zipCode)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 31-Enter input value in input zipCode.png')
 
 "Step 32: Click on input state"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_state'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_state'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 32-Click on input state.png')
 
 "Step 33: Enter input value in input state"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_state'), input_state)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_state'), input_state)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 33-Enter input value in input state.png')
 
 "Step 34: Click on input city"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_city'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_city'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 34-Click on input city.png')
 
 "Step 35: Enter input value in input city"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_city'), input_city)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_city'), input_city)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 35-Enter input value in input city.png')
 
 "Step 36: Click on input phone"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_phone'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_phone'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 36-Click on input phone.png')
 
 "Step 37: Enter input value in input phone"
 
-WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/input_phone'), input_phone)
+WebUI.setText(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/input_phone'), input_phone)
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 37-Enter input value in input phone.png')
 
 "Step 38: Click on button continueToPayment -> Navigate to page '/checkout/payment'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/button_continueToPayment'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/button_continueToPayment'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 38-Click on button continueToPayment - Navigate to page checkoutpayment.png')
 
 "Step 39: Click on button completeOrder -> Navigate to page '/thank-you/*'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_payment/button_completeOrder'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_payment/button_completeOrder'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 39-Click on button completeOrder - Navigate to page thank-you.png')
 
