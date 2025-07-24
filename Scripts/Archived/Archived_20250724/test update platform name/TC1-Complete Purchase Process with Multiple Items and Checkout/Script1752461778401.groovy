@@ -20,21 +20,21 @@ TrueTestScripts.navigate("/product/${product_id}")
 
 "Step 2: Click on label colorOption (pink)"
 
-// Bind values to the variables in the locators of "AI-Generated/test update platform name/Dynamic Objects/Page_product/label_colorOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Dynamic Objects/Page_product/label_colorOption', ['label_colorOption_internalText': label_colorOption_internalText]))
+// Bind values to the variables in the locators of "Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/label_colorOption"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/label_colorOption', ['label_colorOption_internalText': label_colorOption_internalText]))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 2-Click on label colorOption pink.png')
 
 "Step 3: Click on link kCellphoneShop"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_product/link_kCellphoneShop'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_product/link_kCellphoneShop'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link kCellphoneShop.png')
 
 "Step 4: Click on label colorOption (green)"
 
-// Bind values to the variables in the locators of "AI-Generated/test update platform name/Dynamic Objects/Page_product/label_colorOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Dynamic Objects/Page_product/label_colorOption', ['label_colorOption_internalText': label_colorOption_internalText_1]))
+// Bind values to the variables in the locators of "Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/label_colorOption"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Dynamic Objects/Page_product/label_colorOption', ['label_colorOption_internalText': label_colorOption_internalText_1]))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on label colorOption green.png')
 
@@ -53,13 +53,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Dynam
 
 "Step 7: Click on button buy"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_product/button_buy'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_product/button_buy'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button buy.png')
 
 "Step 8: Click on button buy"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_product/button_buy'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_product/button_buy'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on button buy.png')
 
@@ -72,31 +72,31 @@ WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Dynam
 
 "Step 10: Click on button buy"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_product/button_buy'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_product/button_buy'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Click on button buy.png')
 
 "Step 11: Click on link goToCart -> Navigate to page '/cart'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_product/link_goToCart'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_product/link_goToCart'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 11-Click on link goToCart - Navigate to page cart.png')
 
 "Step 12: Click on link goShopping -> Navigate to page '/'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_cart/link_goShopping'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_cart/link_goShopping'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 12-Click on link goShopping - Navigate to page .png')
 
 "Step 13: Click on button addToCart"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_home/button_addToCart'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_home/button_addToCart'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 13-Click on button addToCart.png')
 
 "Step 14: Click on link placeOrder -> Navigate to page '/cart'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_home/link_placeOrder'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_home/link_placeOrder'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 14-Click on link placeOrder - Navigate to page cart.png')
 
@@ -144,7 +144,7 @@ WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checko
 
 "Step 22: Click on div firstName"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/div_firstName'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/div_firstName'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 22-Click on div firstName.png')
 
@@ -162,13 +162,13 @@ WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checko
 
 "Step 25: Click on div address"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/div_address'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/div_address'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 25-Click on div address.png')
 
 "Step 26: Click on div zipCode"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/div_zipCode'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/div_zipCode'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 26-Click on div zipCode.png')
 
@@ -186,7 +186,7 @@ WebUI.setText(findTestObject('AI-Generated/test update platform name/Page_checko
 
 "Step 29: Click on div zipCode2"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/test update platform name/Page_checkout_shipping_address/div_zipCode2'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250724/test update platform name/Page_checkout_shipping_address/div_zipCode2'))
 
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 29-Click on div zipCode2.png')
 
